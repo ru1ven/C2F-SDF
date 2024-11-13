@@ -1,0 +1,30 @@
+add_info: C2F-SDF_dexycb
+
+recon_scale: 6.2
+trainset_3d: dexycb
+trainset_3d_split: s0_29k
+testset: dexycb
+testset_split: s0_5k
+num_testset_samples: 5928
+testset_hand_source: dexycb/data/mesh_hand/
+testset_obj_source: dexycb/data/mesh_obj/
+mano_branch: true
+obj_trans: true
+hand_sdf_weight: 0.5
+obj_sdf_weight: 0.5
+corner_weight: 0.
+hand_cls_weight: 0.
+awr_branch: true
+train_batch_size: 32
+modal: RGBD
+pcl_branch: true
+sdf_latent : 128
+classifyPCL: true
+sdf_weight: true
+heatmap: true
+obj_hm_sup: true
+K: 16
+
+
+
+
