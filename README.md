@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-
-<div align="center">
-
-<h1>[ECCV2024] Coarse-to-Fine Implicit Representation Learning for 3D Hand-Object Reconstruction from a Single RGB-D Image</h1>
-=======
 <div align="center">
 
 <h1>[ECCV2024] Coarse-to-Fine Implicit Representation Learning for 3D Hand-Object Reconstruction from a Single RGB-D Image</h1>
@@ -12,7 +6,7 @@
 
 <h4 align="center">
   <a href="https://link.springer.com/chapter/10.1007/978-3-031-72983-6_5" target='_blank'>[Paper Page]</a> 
-  <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06748.pdf" target='_blank'>[Paper PDF]</a> 
+  <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06748.pdf" target='_blank'>[PDF]</a> 
 
 </h4>
 
@@ -67,4 +61,3 @@ If you find this work useful, please consider citing:
 ## Acknowledgement
 Some of the codes are built upon [manopth](https://github.com/hassony2/manopth), [gSDF](https://github.com/zerchen/gSDF).
 Thanks them for their great works!
->>>>>>> 8f7046f (Release code)
