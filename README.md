@@ -10,8 +10,13 @@
   <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06748.pdf" target='_blank'>[PDF]</a> 
 
 </h4>
-
+<img src="/demo.gif" width="100%">
 </div>
+
+<div>
+<strong> :star_struck: Find more visual and interactive results on our <a href="https://cv.nirc.top/2024/c2f-sdf" target='_blank'>Project Page</a>! </strong>
+</div>
+
 
 <div>
 
