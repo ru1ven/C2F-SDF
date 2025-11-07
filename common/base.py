@@ -215,7 +215,7 @@ class Tester(Base):
         elif cfg.task == 'pose_kpt':
             self.testset_loader = PoseDataset(testset3d_db, cfg=cfg, mode='test')
         else:
-            self.testset3d_db = SDFDataset(testset3d_db, cfg=cfg, mode='test')
+            self.testset_loader = SDFDataset(testset3d_db, cfg=cfg, mode='test')
         self.itr_per_epoch = math.ceil(len(self.testset_loader) / cfg.num_gpus / cfg.test_batch_size)
         self.batch_generator = DataLoader(dataset=self.testset_loader, batch_size=cfg.test_batch_size, shuffle=False, num_workers=cfg.num_threads, pin_memory=True, drop_last=False, persistent_workers=False)
     
