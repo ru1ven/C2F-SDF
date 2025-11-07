@@ -30,7 +30,7 @@ pip install -r ./requirements.txt
 ## Dataset
 
 Download [Dexycb dataset](https://dex-ycb.github.io/) and [ObMan dataset](https://www.di.ens.fr/willow/research/obman/data/requestaccess.php).
-Follow the [gSDF](https://github.com/zerchen/gSDF) repo to generate the original SDF files. Then use ```python preprocess/cocoify_dexycb.py``` or ```paython preprocess/cocoify_obman.py``` script to process the SDF data.
+Follow the [gSDF](https://github.com/zerchen/gSDF) repo to generate the original SDF files. Then use ```python preprocess/cocoify_dexycb.py``` or ```python preprocess/cocoify_obman.py``` script to process the SDF data.
 
 
 ## Training and Evaluation
